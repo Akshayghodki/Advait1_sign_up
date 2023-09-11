@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<style>
+    .container{
+        background-color: #ffffff9b;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .heading2{
+        color: rgba(10, 10, 0, 0.718);
+        margin-top: -18px;
+    }
+    .btn1{
+        margin-top: 60px;
+        background-color: rgba(17, 18, 18, 0.221);
+        padding: 10px;
+        border-radius: 10px solid white;
+        border-radius: 10px;
+    }
+    .btn2{
+        background-color:   rgba(17, 18, 18, 0.035);
+        border:  rgba(17, 18, 18, 0.221);
+        margin-left: 20px;
+    }
+    .btn2:hover{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .btn3{
+        background-color:  rgba(17, 18, 18, 0.035);
+        border:  rgba(17, 18, 18, 0.221);
+        margin-left: 30px;
+    }
+    .btn3:hover{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .email1{
+        margin-top: 70px;
+        background-color: #fff;
+        border-radius: white;
+        border: white;
+    }
+    .Password1{
+        margin-top: 20px;
+    }
+    #forget>a{
+        color: rgba(255, 166, 0, 0.848);
+        text-decoration: none;
+        float: right;
+    }
+    .btn4{
+        margin-top: 10px;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    #btn{
+        margin-left: 85px;
+        background-color: orange;
+        border: orange;
+        color: #fff;
+    }
+    
+    
+    
+    .or{
+        margin-top: 10px;
+    }
+    .btn5{
+        height: 50px;
+       margin-top: 10px;
+        background-color: rgba(0, 0, 0, 0.057);
+        border-radius: 15px;
+    }
+    #btn1{
+        margin-left: 130px;
+        background-color:  rgba(0, 0, 0, 0);
+        border:  rgba(0, 0, 0, 0.057);
+        color: black;
+    }
+    #btn1>img{
+        height: 40px;
+        float: left;
+        margin-left: -130px;
+        margin-top: -15px;
+    }
+    .h6{
+    font-size: 20px;
+    margin-top: -9px;
+    margin-left: -190px;
+    }
+    
+    .lasth1{
+        color: rgba(0, 0, 0, 0.676);
+        text-decoration: none;
+    }
+    .lasth2{
+        color: orange;
+    }
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+    
+</style>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<body>
+    <div class="container">
+        <div class="heading1">
+            <h2>Create Accoount</h2>
+        </div>
+        <div class="heading2">
+            <h5>Hello,welcome back to our account</h5>
+        </div>
+        <label for="text"></label>
+      <input type="text"  placeholder=" User Name" name="name" required>
+
+      <label for="email"></label>
+      <input type="text" placeholder="Email ID" name="email" required>
+
+        <label for="email"></label>
+      <input type="text" placeholder="Mobile No." name="mbl" required>
+
+      <label for="psw"></label>
+      <input type="password" placeholder="Password" name="psw" required>
+
+      <label for="psw-repeat"></label>
+      <input type="password" placeholder="Conform Password" name="psw-repeat" required>
+        
+        <div class="btn4">
+            <!-- <button id="btn" onclick="">Create Account</button> -->
+            <input type="submit" value="Create account"  id="btn">
+        </div>
+        <div class="or">
+        ___________<strong class="or1">  OR  </strong> ____________
+        </div>
+         <div class="btn5">
+            <button id="btn1" onclick=""><img src="./assest/image/google.png" alt=""><h6 class="h6">Login with Google</h6></button>
+        </div> 
+        <a class="lasth1" href="">Not Registered yet ?<a class="lasth2">Create an account</a>
+    </div>
+</body>
+</html>
